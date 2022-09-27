@@ -1,0 +1,43 @@
+freyamodi@DESKTOP-93MTCTL MINGW64 /c/users/freyamodi/urvesh
+$ touch lof
+
+freyamodi@DESKTOP-93MTCTL MINGW64 /c/users/freyamodi/urvesh
+$ ls
+f1  lof
+
+freyamodi@DESKTOP-93MTCTL MINGW64 /c/users/freyamodi/urvesh
+$ cat lof
+
+freyamodi@DESKTOP-93MTCTL MINGW64 /c/users/freyamodi/urvesh
+$ echo "Script executed sucess" >> lof
+
+freyamodi@DESKTOP-93MTCTL MINGW64 /c/users/freyamodi/urvesh
+$ cat lof
+Script executed sucess
+
+freyamodi@DESKTOP-93MTCTL MINGW64 /c/users/freyamodi/urvesh
+$ vim script.sh
+
+freyamodi@DESKTOP-93MTCTL MINGW64 /c/users/freyamodi/urvesh
+$ ls
+f1  lof  script.sh*
+
+freyamodi@DESKTOP-93MTCTL MINGW64 /c/users/freyamodi/urvesh
+$ cat script.sh
+#!/usr/bin/sh
+touch log
+echo "script executeed sucessfully" >> log
+
+freyamodi@DESKTOP-93MTCTL MINGW64 /c/users/freyamodi/urvesh
+$ ./script.sh
+
+freyamodi@DESKTOP-93MTCTL MINGW64 /c/users/freyamodi/urvesh
+$ ls
+f1  lof  log  script.sh*
+
+freyamodi@DESKTOP-93MTCTL MINGW64 /c/users/freyamodi/urvesh
+$ cat log
+script executeed sucessfully
+
+freyamodi@DESKTOP-93MTCTL MINGW64 /c/users/freyamodi/urvesh
+$
